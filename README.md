@@ -1,6 +1,8 @@
 # Neovim Custom Configuration
 
 This is a personalized configuration for Neovim, written in Lua and managed with LazyVim. This README will guide you through the steps to download Neovim, install LazyVim, and understand the project structure.
+![image](https://github.com/user-attachments/assets/8a0412b6-b75a-4446-86d4-72243b0b3e1d)
+
 
 ## Table of Contents
 
