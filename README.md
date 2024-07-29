@@ -72,8 +72,14 @@ Here's an overview of the project structure:
 ~/.config/nvim
 ├── init.lua            # Main configuration file
 ├── lua
-│   ├── plugins.lua     # Plugin management file
-│   ├── settings.lua    # General settings
-│   ├── keymaps.lua     # Key mappings
+│   ├── plugins         # Plugin management dir
+│       ├── bufferline.lua
+│       ├── lualine.lua
+│       ├── nvim-tree.lua
+│       ├── ...
+│   ├── config          # global config
+│       ├── keymaps.lua
+│       ├── lazy.lua
+│       ├── options.lua
 │   └── ...             # Additional Lua configuration files
 └── ...
