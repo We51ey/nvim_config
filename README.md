@@ -6,10 +6,18 @@ This is a personalized configuration for Neovim, written in Lua and managed with
 
 ## Table of Contents
 
-1. [Download Neovim](#download-neovim)
-2. [Install LazyVim](#install-lazyvim)
-3. [Project Structure](#project-structure)
-4. [Environment Setup](#environment-setup)
+1. [Environment Setup](#environment-setup)
+2. [Download Neovim](#download-neovim)
+3. [Install LazyVim](#install-lazyvim)
+4. [Project Structure](#project-structure)
+
+
+## Environment Setup
+The Neovim environment is set up on Windows 11 using WSL2 and Windows Terminal. One common issue is the numerous default shortcuts in Windows Terminal that can conflict with custom Neovim keybindings. You may need to disable some of these shortcuts during the configuration process.
+
+Additionally, you will need Nerd Fonts to support various character icons. Even if you have previously installed Nerd Fonts, it is recommended to reinstall the latest version to ensure all icons are supported. Some older versions may not fully support certain icons.
+
+
 
 ## Download Neovim
 
